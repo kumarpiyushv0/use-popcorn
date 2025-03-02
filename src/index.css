@@ -48,7 +48,7 @@ body {
   gap: 2.4rem;
   justify-content: center;
 }
-
+.box::-webkit-scrollbar, .list::-webkit-scrollbar {   display: none;   scroll-behavior: smooth; }
 .box {
   width: 420rem;
   max-width: 420rem;
@@ -356,7 +356,7 @@ FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 /52 / 62 / 74 / 86 / 98
 */
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
   body {
     padding: 1rem;
     font-size: 1.4rem;
@@ -380,11 +380,11 @@ FONT SIZE SYSTEM (px)
 
   /* Search Box */
   .search {
-    width: 90%;
-    max-width: 28rem;
+    width: 100%;
+    max-width: 40rem;
     font-size: 1.2rem;
-    padding: 0.6rem;
-    margin: 0 auto;
+    padding: 1rem;
+    margin: 1 auto;
     display: block;
   }
 
@@ -406,7 +406,7 @@ FONT SIZE SYSTEM (px)
 
   .box {
     width: 100%;
-    max-width: 100%;
+    max-width: 40rem;
     border-radius: 0.5rem;
     overflow: hidden;
     padding: 1.2rem;
